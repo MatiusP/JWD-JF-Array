@@ -21,7 +21,7 @@ public class Task_02 {
     }
 
 
-    public static int[] getNewArrayWithoutMinElements(int[] array) {
+    public static int[] newArrayWithoutMinElements(int[] array) {
         int[] newArray;
 
         if (array.length > 1) {
@@ -50,8 +50,8 @@ public class Task_02 {
         int[] array2 = {-10, 5, 10, -10, -10, -10, -5};
         int[] array3 = {-10};
 
-        System.out.println(Arrays.toString(getNewArrayWithoutMinElements(array1)));
-        System.out.println(Arrays.toString(getNewArrayWithoutMinElements(array2)));
-        System.out.println(Arrays.toString(getNewArrayWithoutMinElements(array3)));
+        System.out.println(Arrays.toString(newArrayWithoutMinElements(array1)));
+        System.out.println(Arrays.toString(newArrayWithoutMinElements(array2)));
+        System.out.println(Arrays.toString(newArrayWithoutMinElements(array3)));
     }
 }
