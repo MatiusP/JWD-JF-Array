@@ -78,10 +78,11 @@ public class Task_03 {
                 }
             }
             return lockCode;
-        } else {
-            System.out.println("Invalid input combination. It's impossible to get the lock code!");
-            return lockCode;
         }
+
+
+        System.out.println("Invalid input combination. It's impossible to get the lock code!");
+        return lockCode;
     }
 
     //----- check result -----
